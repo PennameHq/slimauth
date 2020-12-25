@@ -1,3 +1,3 @@
-const slimauth = require('./lib/slimauth')
+const lib = require('./lib')
 
-module.exports = slimauth
+module.exports = lib.slimauth
