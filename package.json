@@ -1,0 +1,46 @@
+{
+	"name": "@penname/slimauth",
+	"version": "0.0.1",
+	"description": "A slim authentication framework.",
+	"main": "index.js",
+	"scripts": {
+		"test": "nyc --reporter=cobertura mocha",
+		"test:ci": "nyc --reporter=cobertura mocha --forbid-only"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PennameHq/slimauth.git"
+	},
+	"keywords": [
+		"authentication",
+		"authorization",
+		"auth",
+		"sso",
+		"single sign on"
+	],
+	"author": "Penname.me",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PennameHq/slimauth/issues"
+	},
+	"homepage": "https://github.com/PennameHq/slimauth#readme",
+	"dependencies": {
+		"q": "^1.5.1",
+		"ramda": "^0.27.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"deep-set": "^1.0.1",
+		"mocha": "^8.2.1",
+		"mongodb-memory-server": "^6.9.2",
+		"nyc": "^15.1.0",
+		"on-change": "^2.2.0",
+		"prettier": "^2.2.1",
+		"sinon": "^9.2.1",
+		"sinon-test": "^3.0.0"
+	},
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	}
+}
