@@ -1,4 +1,4 @@
-name: slimgoose CI / CD
+name: slimauth CI / CD
 on: [push]
 
 jobs:

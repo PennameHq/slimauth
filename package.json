@@ -25,6 +25,8 @@
 	},
 	"homepage": "https://github.com/PennameHq/slimauth#readme",
 	"dependencies": {
+		"client-sessions": "^0.8.0",
+		"hat": "0.0.3",
 		"q": "^1.5.1",
 		"ramda": "^0.27.1"
 	},
