@@ -1,7 +1,7 @@
 {
 	"name": "@penname/slimauth",
 	"version": "0.0.1",
-	"description": "A slim authentication framework.",
+	"description": "A convenient, slim authentication manager.",
 	"main": "index.js",
 	"scripts": {
 		"test": "nyc --reporter=cobertura mocha",

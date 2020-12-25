@@ -1,2 +1,3 @@
 # slimauth
-A slim authentication framework.
+
+A convenient, slim authentication manager.
